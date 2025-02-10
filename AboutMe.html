@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Karl Lobe Mouelle</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+   
+    
+</head>
+<body>
+
+   
+    <!-- About Me Header -->
+    <header class="about-header">
+        
+
+        <nav class="navbar1">
+            <a href="file:///D:/HTML/My%20Portfolio.html" class="active">Home</a>
+            <a href="file:///D:/HTML/AboutMe.html">About</a>
+            <a href="#">Services</a>
+            <a href="#">My Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Introduction -->
+        <section class="about-content">
+            <div class="about-image">
+                <img src="aboutme.png" alt="Karl Lobe Mouelle's Picture">
+            </div>
+            <div class="about-text">
+                <p>Hi, I am <strong>Karl Lobe Mouelle</strong>, a dedicated technical support specialist and independent contractor passionate about delivering exceptional customer service. With a strong foundation in hardware deployment, troubleshooting, and software installations, I’m constantly seeking opportunities to enhance my skills and contribute to dynamic IT environments.</p>
+                <p>Beyond my technical expertise, I value collaboration, creativity, and making a meaningful impact through technology. When I’m not solving technical challenges, I enjoy exploring sustainable living initiatives and working towards creating a better community for everyone.</p>
+            </div>
+        </section>
+
+        <h1 class="section-title">My Professional Experience</h1>
+
+        <!-- Dropdown for Jobs -->
+        <div class="dropdown">
+            <label for="jobs">Select a Job:</label>
+            <select id="jobs" onchange="showJobDetails()">
+                <option value="" disabled selected>Choose a position...</option>
+                <option value="job1">Field Systems Technician</option>
+                <option value="job2">Independent Contractor</option>
+                <option value="job3">Hardware Deployment Coordinator</option>
+                <option value="job4">Technical Support Specialist</option>
+                <option value="job5">Implementation Specialist</option>
+                <option value="job6">Network Support Technician</option>          
+                
+                
+            </select>
+        </div>
+
+         <!-- Job Details -->
+         <div id="job6" class="job-details">
+          <h3>Network Support Technician</h3>
+          <p>PKC Technology (October 2021- November 2023)</p>
+          <ul>
+            <li>Installed and configured network devices, routers, switches, and wireless access points.</li>
+            <li>Created, customized, and deployed computer images to meet the specific needs of clients. This involves installing operating systems, software applications, and configuring settings.</li>
+            <li>Assembled and configured computer hardware components, ensuring proper connectivity and functionality.</li>
+            <li>Managed point of sales (POS) systems, ensuring smooth operation and functionality for daily transactions.</li>
+            <li>Collaborated with the NOC team to monitor network reliability, troubleshoot connectivity issues, and ensure minimal downtime.</li>
+            <li>Assisted in the installation and configuration of firewalls (Cisco, FortiGate) to enhance the organization's security infrastructure.</li>
+        </ul>
+      </div>
+
+        <div id="job1" class="job-details">
+            <h3>Field Systems Technician</h3>
+            <p>I-77 Express (Current)</p>
+            <ul>
+                <li>Diagnose and repair hardware, software, and system issues.</li>
+                <li>Support testing and verification of sustem changes after implementation.</li>
+                <li>Installation, preventative and corrective maintenace of toll collection equipment to include lane controllers
+                    (servers & PC hardware), RFID, power supplies, closed circuit television cameras, microwave vehicle detectors, 
+                    network components (routers, switches, cabling), and dynamic message signs. </li>
+                <li>Installation of electrical conductors to power services to energize equipment.</li>
+        </ul>
+        </div>
+
+        
+        <div id="job2" class="job-details">
+            <h3>Independent Contractor</h3>
+            <p>Field Nation</p>
+            <ul>
+                <li>Perform desktop support services, including troubleshooting, installation, 
+                    and configuration to ensure optimal performance and reliability for end-users.</li>
+                <li>Perform network equipment installations, including the setup and configuration of
+                     firewalls, switches, and point-of-sale systems for retail stores such as Walmart 
+                     and Dollar General, as well as restaurants like Carrabba’s and Texas Roadhouse.</li>
+                <li>Configure routers with static and dynamic routing, NAT, and DHCP settings to 
+                    optimize network performance.</li>
+                <li>Ensure high standards of client satisfaction by providing timely support 
+                    and effective communication throughout service engagements.</li>
+          </ul>
+        </div>
+
+
+        <div id="job3" class="job-details">
+            <h3>Hardware Deployment Technician - Contract</h3>
+            <p>TMG Global (March - September 2024)</p>
+            <ul>
+                <li>Developed project plans that included timelines, milestones, and resource 
+                    allocation to ensure successful project completion</li>
+                <li>Configured and installed operating systems, applications, and peripherals.</li>
+                <li>Troubleshooted hardware and software issues, escalating complex problems as needed.</li>
+                <li>Managed racking and cabling processes, organizing and labeling network and power cables to maintain a clean and efficient environment, 
+                    which streamlined future troubleshooting and maintenance.</li>
+                <li>Coordinated installation of network switches and other components, ensuring proper power 
+                    supply and backup systems to handle any potential outage.</li>
+                <li>Performed patching from patch panel to switches and from wall port to device.</li>
+                <li>Collaborated with the IT team to plan and execute data 
+                    center migrations and infrastructure upgrades.</li>
+                <li>Demonstrated proficiency in Active Directory management, including user account administration, 
+                    group policy management, and security permissions.</li>
+          </ul>
+        </div>
+
+        <div id="job4" class="job-details">
+            <h3>Technical Support </h3>
+            <p>Foundever (February 2022 – February 2024)</p>
+            <ul>
+                <li>Managed support tickets using Zendesk, ensuring timely and effective issue resolution.</li>
+                <li>Diagnosed and resolved hardware and software issues for end-users, ensuring minimal downtime and optimal system performance.</li>
+                <li>Provided comprehensive support for Windows and macOS systems, including deployment, patching, and troubleshooting.</li>
+                <li>Provided Level 1/Level 2 support for end-users, resolving hardware and software issues efficiently, 
+                    ensuring minimal downtime and optimal system performance. </li>
+                <li>Configured and managed Microsoft 365 applications, including Outlook, Word, Excel, PowerPoint, and Teams, optimizing user experience and productivity.</li>
+                
+          </ul>
+        </div>
+
+        <div id="job5" class="job-details">
+            <h3>Implementation Specialist</h3>
+            <p>Munibilling (March 2021 – March 2022)</p>
+            <ul>
+                <li>Facilitated ETL and data modeling processes.</li>
+                <li>Reconciled export and import records, ensuring data legitimacy.</li>
+                <li>Developed and optimized SQL queries and stored procedures to extract, manipulate, and report data from relational databases, 
+                    ensuring data accuracy and timely delivery for business intelligence needs.</li>
+                <li>Configured business rules on the MuniBilling platform.</li>
+                <li>Designed, implemented, and maintained large-scale ETL processes.</li>
+                <li>Monitored and troubleshooted data pipeline issues.</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <section class="skills"> 
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>Technical Support</li>
+                <li>POS Systems</li>
+                <li>Structured Cabling</li>
+                <li>Networking Concept</li>
+                <li>Patching/Cable Management</li>
+                <li>pUtty</li>
+                <li>Hardware Deployment</li>
+                <li>HTML/CSS</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>PowerBi</li>
+                
+            </ul>
+        </section>
+
+        <!-- Call to Action -->
+        <div class="contact-btn">
+            <a href="contact.html">Let's Work Together</a>
+            
+        </div>
+    </main>
+
+    <script>
+      // JavaScript function to show/hide job details
+      function showJobDetails() {
+          // Hide all job details
+          document.querySelectorAll('.job-details').forEach((job) => {
+              job.classList.remove('active');
+          });
+
+          // Show the selected job detail
+          const selectedJob = document.getElementById(document.getElementById('jobs').value);
+          if (selectedJob) {
+              selectedJob.classList.add('active');
+          }
+      }
+  </script>
+
+
+
+</body>
+</html>
